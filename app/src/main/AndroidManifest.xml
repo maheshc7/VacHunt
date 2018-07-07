@@ -23,7 +23,9 @@
             android:label="@string/title_activity_tabs"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".view.hunt.process.ProcessInterviewSchedule" />
-        <activity android:name=".view.hunt.process.ProcessShortlist1"></activity>
+        <activity android:name=".view.hunt.process.ProcessShortlist1" />
+        <activity android:name=".view.hunt.jobs.JobsMain" />
+        <activity android:name=".view.hunt.jobs.JobsMain1"></activity>
     </application>
 
 </manifest>
