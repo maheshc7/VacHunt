@@ -32,20 +32,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/profile_leadershipBtn"
         android:layout_width="80sp"
         android:layout_height="80sp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="52dp"
         android:background="@drawable/leadership_icon"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/profile_backgroundBtn"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile_name" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/profile_backgroundBtn"
         android:layout_width="80sp"
         android:layout_height="80sp"
         android:layout_marginEnd="48dp"
@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/profile_name" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/profile_eventsBtn"
         android:layout_width="80dp"
         android:layout_height="80sp"
         android:layout_marginBottom="8dp"
@@ -63,28 +63,28 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="56dp"
         android:background="@drawable/events_icon"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/profile_locationBtn"
+        app:layout_constraintEnd_toStartOf="@+id/profile_contactsBtn"
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/profile_leadershipBtn"
         app:layout_constraintVertical_bias="0.129" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/profile_contactsBtn"
         android:layout_width="80sp"
         android:layout_height="80sp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="48dp"
         android:layout_marginTop="56dp"
         android:background="@drawable/contacts_icon"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/profile_locationBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/profile_backgroundBtn"
         app:layout_constraintVertical_bias="0.129" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/profile_locationBtn"
         android:layout_width="80sp"
         android:layout_height="80sp"
         android:layout_marginBottom="72dp"
