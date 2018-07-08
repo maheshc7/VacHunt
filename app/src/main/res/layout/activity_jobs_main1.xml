@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.hunt.jobs.JobsMain1">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="188dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/jobs_seeker_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/jobs_seekerBtn"
+        android:layout_width="225dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/jobs_seeker_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="192dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/jobs_recruiter_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jobs_seekerBtn" />
+
+    <Button
+        android:id="@+id/jobs_recruiterBtn"
+        android:layout_width="232dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/jobs_recruiter_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+</android.support.constraint.ConstraintLayout>

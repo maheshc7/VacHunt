@@ -9,9 +9,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.viinman.product.vachunt.R;
+import com.viinman.product.vachunt.view.hunt.jobs.JobsMain;
 import com.viinman.product.vachunt.view.hunt.process.ProcessShortlist1;
 
 public class HuntActivity extends Fragment {
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -26,6 +28,17 @@ public class HuntActivity extends Fragment {
             }
         });
 
+        Button job = rootView.findViewById(R.id.hunt_jobsBtn);
+        job.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v1) {
+                Intent toJobs = new Intent(getContext(), JobsMain.class);
+                startActivity(toJobs);
+            }
+        });
+
         return  rootView;
     }
+
+
 }
