@@ -1,6 +1,7 @@
 package com.viinman.product.vachunt.view.profile;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -25,10 +26,46 @@ public class ProfileActivity extends Fragment {
         contactBtn =rootView.findViewById(R.id.profile_contactsBtn);
         locBtn =rootView.findViewById(R.id.profile_locationBtn);
 
+        leaderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toLeadership = new Intent(getContext(),ProfileLeadershipActivity.class);
+                startActivity(toLeadership);
+            }
+        });
+
+        leaderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toLeadership = new Intent(getContext(),ProfileLeadershipActivity.class);
+                startActivity(toLeadership);
+            }
+        });
+
+        bgBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toBackground = new Intent(getContext(),ProfileBackgroundActivity.class);
+                startActivity(toBackground);
+            }
+        });
+
+        eventBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toEvents = new Intent(getContext(),ProfileEventActivity.class);
+                startActivity(toEvents);
+            }
+        });
+
+        contactBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toContacts = new Intent(getContext(),ProfileContactsActivity.class);
+                startActivity(toContacts);
+            }
+        });
 
         return  rootView;
-    }
-    public void onLeadershipClick(View view){
-
     }
 }
