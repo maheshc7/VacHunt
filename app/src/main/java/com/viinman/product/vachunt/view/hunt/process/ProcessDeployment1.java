@@ -1,7 +1,9 @@
-package com.viinman.product.vachunt;
+package com.viinman.product.vachunt.view.hunt.process;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.viinman.product.vachunt.R;
 
 public class ProcessDeployment1 extends AppCompatActivity {
 
