@@ -23,7 +23,12 @@
             android:label="@string/title_activity_tabs"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".view.hunt.process.ProcessInterviewSchedule" />
-        <activity android:name=".view.hunt.process.ProcessShortlist1"></activity>
+        <activity android:name=".view.hunt.process.ProcessShortlist1" />
+        <activity android:name=".view.hunt.process.ProcessInterviewOffer" />
+        <activity android:name=".view.hunt.process.ProcessDocumentation1" />
+        <activity android:name=".view.hunt.process.ProcessDocumentation2" />
+        <activity android:name=".ProcessDeployment1" />
+        <activity android:name=".ProcessDeployment2"></activity>
     </application>
 
 </manifest>
