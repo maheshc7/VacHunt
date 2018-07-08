@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".view.hunt.process.ProcessDocumentation2">
+
+    <ImageView
+        android:id="@+id/Home_Line"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_line" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/Shortlisting"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_nohighlight"
+            android:text="Shortlisting"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Interview"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_nohighlight"
+            android:text="Interview"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Documentation"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_bottom_highlight"
+            android:text="Documentation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Deployment"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_nohighlight"
+            android:text="Deployment"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/offlet"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/right_small_stroke"
+        android:text="Offer Letter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/educert"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/right_small_stroke"
+        android:text="Education Certificate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/offlet"
+        app:layout_constraintTop_toBottomOf="@+id/offlet" />
+
+    <TextView
+        android:id="@+id/expcert"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/right_small_stroke"
+        android:text="Experience Certificate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/educert"
+        app:layout_constraintTop_toBottomOf="@+id/educert" />
+
+    <TextView
+        android:id="@+id/med"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/right_small_stroke"
+        android:text="Medical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/expcert"
+        app:layout_constraintTop_toBottomOf="@+id/expcert" />
+
+    <Button
+        android:id="@+id/Attach1"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/offer_attach_1"
+        app:layout_constraintStart_toEndOf="@+id/educert"
+        app:layout_constraintTop_toTopOf="@+id/educert" />
+
+    <Button
+        android:id="@+id/Attach2"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/offer_attach_1"
+        app:layout_constraintStart_toEndOf="@+id/offlet"
+        app:layout_constraintTop_toTopOf="@+id/offlet" />
+
+    <Button
+        android:id="@+id/Attach3"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/offer_attach_1"
+        app:layout_constraintStart_toEndOf="@+id/expcert"
+        app:layout_constraintTop_toTopOf="@+id/expcert" />
+
+    <Button
+        android:id="@+id/Attach4"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/offer_attach_1"
+        app:layout_constraintStart_toEndOf="@+id/med"
+        app:layout_constraintTop_toTopOf="@+id/med" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/right_small_stroke"
+        android:text="Passport"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/med"
+        app:layout_constraintTop_toBottomOf="@+id/med" />
+
+    <TextView
+        android:id="@+id/others"
+        android:layout_width="67dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Others"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/pass"
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
+
+    <Button
+        android:id="@+id/attach5"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/offer_attach_1"
+        app:layout_constraintStart_toEndOf="@+id/pass"
+        app:layout_constraintTop_toTopOf="@+id/pass" />
+
+    <Button
+        android:id="@+id/attach6"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:background="@drawable/offer_attach_1"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="213dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/schedule_textbox"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/others"
+        app:layout_constraintTop_toTopOf="@+id/others" />
+
+    <Button
+        android:id="@+id/savenext"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/red_button"
+        android:text="@string/Save"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/others"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</android.support.constraint.ConstraintLayout>

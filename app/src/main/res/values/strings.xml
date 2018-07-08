@@ -9,5 +9,5 @@
     <string name="tab_text_5">HUNT</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_tabs">TabsActivity</string>
-
+    <string name="Save">Save And Next</string>
 </resources>

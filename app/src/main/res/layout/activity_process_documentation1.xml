@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".view.hunt.process.ProcessShortlist1">
+    tools:context=".view.hunt.process.ProcessInterview1">
 
     <ImageView
         android:id="@+id/Home_Line"
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/button_bottom_highlight"
+            android:background="@drawable/button_nohighlight"
             android:text="Shortlisting"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/button_nohighlight"
+            android:background="@drawable/button_bottom_highlight"
             android:text="Documentation"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -73,7 +73,7 @@
 
     <EditText
         android:id="@+id/editText"
-        style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+        style="@android:style/Widget.Holo.EditText"
         android:layout_width="wrap_content"
         android:layout_height="113dp"
         android:layout_marginEnd="8dp"
@@ -96,22 +96,28 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="156dp"
-        android:background="@drawable/profiles_button"
+        android:background="@drawable/red_button"
         android:fontFamily="sans-serif"
-        android:textColor="@color/colorPrimary"
+        android:text="1 Profile"
+        android:textColor="@android:color/white"
         android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toEndOf="@+id/editText"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/shortlistingtext"
-        android:layout_width="153dp"
-        android:layout_height="40dp"
+    <TextView
+        android:id="@+id/doc"
+        android:layout_width="187dp"
+        android:layout_height="31dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="68dp"
-        android:src="@drawable/process_shortlisting"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/button_border_red"
+        android:text="Documentation"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
