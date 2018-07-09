@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".view.hunt.jobs.JobsSectorEnergy">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jobs_sector_energy_industry" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        android:clickable="true"
+        android:onClick="oil"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:srcCompat="@drawable/jobs_sector_energy_oil" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:srcCompat="@drawable/jobs_sector_energy_gas" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:srcCompat="@drawable/jobs_sector_energy_electrical" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:srcCompat="@drawable/jobs_sector_energy_nuclear" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView27"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@drawable/jobs_sector_energy_solar" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23"
+        app:srcCompat="@drawable/jobs_sector_energy_coal" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:srcCompat="@drawable/jobs_sector_energy_hydro" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        app:srcCompat="@drawable/jobs_sector_energy_wind" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView29"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26"
+        app:srcCompat="@drawable/jobs_sector_others" />
+</android.support.constraint.ConstraintLayout>
