@@ -269,6 +269,7 @@
         android:layout_marginStart="116dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/schedule_confirm"
+        android:onClick="onSaveClicked"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/othersbox2" />
 

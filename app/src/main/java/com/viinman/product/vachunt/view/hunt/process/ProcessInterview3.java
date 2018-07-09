@@ -18,4 +18,8 @@ public class ProcessInterview3 extends AppCompatActivity {
         Intent toOffer = new Intent(this,ProcessInterviewOffer.class);
         startActivity(toOffer);
     }
+    public void onScheduleClicked(View view){
+        Intent toSchedule = new Intent(this,ProcessInterviewSchedule.class);
+        startActivity(toSchedule);
+    }
 }

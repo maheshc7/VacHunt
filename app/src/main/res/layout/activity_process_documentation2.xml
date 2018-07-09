@@ -221,6 +221,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="68dp"
         android:background="@drawable/red_button"
+        android:onClick="onSaveClicked"
         android:text="@string/Save"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@android:color/white"
