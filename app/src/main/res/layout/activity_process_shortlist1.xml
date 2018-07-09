@@ -98,6 +98,7 @@
         android:layout_marginTop="156dp"
         android:background="@drawable/profiles_button"
         android:fontFamily="sans-serif"
+        android:onClick="onBtnClick"
         android:textColor="@color/colorPrimary"
         android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
