@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".process_interview_schedule">
+    tools:context=".view.hunt.process.ProcessInterviewSchedule">
 
     <ImageView
         android:id="@+id/Home_Line"
@@ -15,40 +15,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/home_line" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="409dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="11dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/Home_Line">
-
-        <Button
-            android:id="@+id/Jobs"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/button_top_selector"
-            android:text="Jobs"
-
-            android:textAlignment="center"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/Process"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/button_border_red"
-            android:text="Process"
-            android:textAlignment="center"
-            android:textStyle="bold" />
-    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -107,13 +73,11 @@
 
     <LinearLayout
         android:id="@+id/profileview1"
-        android:layout_width="300dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/Home_Line">
 
@@ -144,7 +108,7 @@
         android:layout_width="84dp"
         android:layout_height="18dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="136dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/schedule_schedule" />
@@ -190,9 +154,9 @@
         android:id="@+id/direct"
         android:layout_width="71dp"
         android:layout_height="55dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="168dp"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintStart_toEndOf="@+id/mode"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/schedule_direct" />
 
@@ -200,7 +164,7 @@
         android:id="@+id/vidcall"
         android:layout_width="71dp"
         android:layout_height="55dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="148dp"
         app:layout_constraintStart_toEndOf="@+id/direct"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/schedule_vidcall" />
@@ -209,7 +173,7 @@
         android:id="@+id/voicecall"
         android:layout_width="71dp"
         android:layout_height="55dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="148dp"
         app:layout_constraintStart_toEndOf="@+id/vidcall"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/schedule_voicecall" />
@@ -217,9 +181,9 @@
     <ImageView
         android:id="@+id/date"
         android:layout_width="62dp"
-        android:layout_height="14dp"
+        android:layout_height="20dp"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="84dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mode"
         app:srcCompat="@drawable/schedule_date" />
@@ -240,8 +204,8 @@
         android:id="@+id/time"
         android:layout_width="67dp"
         android:layout_height="16dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/date"
         app:srcCompat="@drawable/schedule_time" />
@@ -261,7 +225,7 @@
     <ImageView
         android:id="@+id/location"
         android:layout_width="74dp"
-        android:layout_height="15dp"
+        android:layout_height="20dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -283,7 +247,7 @@
     <ImageView
         android:id="@+id/message"
         android:layout_width="86dp"
-        android:layout_height="17dp"
+        android:layout_height="20dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -293,7 +257,7 @@
     <EditText
         android:id="@+id/editText11"
         android:layout_width="211dp"
-        android:layout_height="39dp"
+        android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/schedule_textbox"
@@ -306,8 +270,8 @@
         android:id="@+id/cnf"
         android:layout_width="96dp"
         android:layout_height="35dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/schedule_confirm"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/message" />
