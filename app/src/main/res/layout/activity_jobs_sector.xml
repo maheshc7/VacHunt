@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".view.hunt.jobs.JobsSector">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="143dp"
+        android:layout_height="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jobs_sector" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/jobs_sector_auto" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jobs_sector_bank" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jobs_sector_fmcg" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:clickable="true"
+        android:onClick="energy"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/jobs_sector_energy" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="146dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/jobs_sector_metal" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/jobs_sector_retail" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/jobs_sector_pharma" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/jobs_sector_it" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/jobs_sector_realestate" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/jobs_sector_infra" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:srcCompat="@drawable/jobs_sector_media" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:srcCompat="@drawable/jobs_sector_others" />
+</android.support.constraint.ConstraintLayout>

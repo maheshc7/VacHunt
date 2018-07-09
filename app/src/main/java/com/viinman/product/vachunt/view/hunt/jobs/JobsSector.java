@@ -6,17 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.viinman.product.vachunt.R;
-public class JobsMain1 extends AppCompatActivity {
 
-public void seek(View view){
+public class JobsSector extends AppCompatActivity {
 
-    Intent toSector = new Intent(getApplicationContext(),JobsSector.class);
-    startActivity(toSector);
-}
+    public void energy(View v){
+
+        Intent toEnergy = new Intent(getApplicationContext(),JobsSectorEnergy.class);
+        startActivity(toEnergy);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_jobs_main1);
+        setContentView(R.layout.activity_jobs_sector);
     }
 }
