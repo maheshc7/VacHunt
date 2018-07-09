@@ -24,11 +24,15 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".view.hunt.process.ProcessInterviewSchedule" />
         <activity android:name=".view.hunt.process.ProcessShortlist1" />
+        <activity android:name=".view.profile.ProfileLeadershipActivity" />
+        <activity android:name=".view.profile.ProfileBackgroundActivity"></activity>
         <activity android:name=".view.hunt.process.ProcessInterviewOffer" />
         <activity android:name=".view.hunt.process.ProcessDocumentation1" />
         <activity android:name=".view.hunt.process.ProcessDocumentation2" />
-        <activity android:name=".ProcessDeployment1" />
-        <activity android:name=".ProcessDeployment2"></activity>
+        <activity android:name=".view.hunt.process.ProcessDeployment1" />
+        <activity android:name=".view.hunt.process.ProcessDeployment2"></activity>
+        <activity android:name=".view.hunt.jobs.JobsMain" />
+        <activity android:name=".view.hunt.jobs.JobsMain1"></activity>
     </application>
 
 </manifest>

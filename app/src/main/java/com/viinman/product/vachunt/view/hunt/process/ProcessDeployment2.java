@@ -7,6 +7,8 @@ import android.view.View;
 
 import com.viinman.product.vachunt.R;
 
+import com.viinman.product.vachunt.R;
+
 public class ProcessDeployment2 extends AppCompatActivity {
 
     @Override
