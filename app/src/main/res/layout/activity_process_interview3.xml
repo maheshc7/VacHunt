@@ -33,6 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toShortlist1"
             android:text="Shortlisting"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -55,6 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toDoc1"
             android:text="Documentation"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -66,6 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toDeploy1"
             android:text="Deployment"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -97,6 +100,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
+            android:focusable="false"
             android:inputType="textMultiLine"
             android:text="Vinoth Mani\nLogistic Controller, Vinman Overseas\nLogistics,Oil-Energy"
             android:textSize="14sp" />
@@ -174,7 +178,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/process_schedule" />
+                android:background="@drawable/process_schedule"
+                android:onClick="toSchedule" />
 
             <Button
                 android:id="@+id/button9"
@@ -182,7 +187,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/process_offer" />
+                android:background="@drawable/process_offer"
+                android:onClick="toOffer" />
 
             <Button
                 android:id="@+id/button10"
@@ -190,7 +196,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/process_close" />
+                android:background="@drawable/process_close"
+                android:onClick="toInterview2" />
         </LinearLayout>
     </LinearLayout>
 

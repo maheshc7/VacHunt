@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
-            android:onClick="onSaveBtnClick"
+            android:onClick="toInterview1"
             android:text="Interview"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
-            android:onClick="onSaveClicked2"
+            android:onClick="toDoc1"
             android:text="Documentation"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -69,6 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toDeploy1"
             android:text="Deployment"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -79,6 +80,7 @@
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
+        android:onClick="toProfile"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -100,7 +102,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
+            android:focusable="false"
             android:inputType="textMultiLine"
+            android:onClick="toProfile"
             android:text="Vinoth Mani\nLocation:Chennai\nLast Update:3/7/2018" />
 
     </LinearLayout>
@@ -111,6 +115,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="96dp"
         android:layout_weight="1"
+        android:onClick="toProfile"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -142,6 +147,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="196dp"
         android:layout_weight="1"
+        android:onClick="toProfile"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -173,6 +179,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="296dp"
         android:layout_weight="1"
+        android:onClick="toProfile"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -204,6 +211,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="396dp"
         android:layout_weight="1"
+        android:onClick="toProfile"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -228,4 +236,5 @@
             android:inputType="textMultiLine"
             android:text="Vinoth Mani\nLocation:Chennai\nLast Update:3/7/2018" />
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

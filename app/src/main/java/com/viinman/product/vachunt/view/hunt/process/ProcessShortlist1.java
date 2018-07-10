@@ -15,8 +15,27 @@ public class ProcessShortlist1 extends AppCompatActivity {
         setContentView(R.layout.activity_process_shortlist1);
     }
 
-    public void onBtnClick(View view){
+    public void toShortlist2(View view){
         Intent toShortlist2 = new Intent(this,ProcessShortlist2.class);
         startActivity(toShortlist2);
     }
+
+    /*public void toShortlist1(View view){
+        Intent toShortlist1 = new Intent(this,ProcessShortlist1.class);
+        startActivity(toShortlist1);
+    }*/
+
+    public void toInterview1(View view){
+        Intent toInterview1 = new Intent(this,ProcessInterview1.class);
+        startActivity(toInterview1);
+    }
+    public void toDoc1(View view){
+        Intent toDoc1 = new Intent(this,ProcessDocumentation1.class);
+        startActivity(toDoc1);
+    }
+    public void toDeploy1(View view){
+        Intent toDeploy1 = new Intent(this,ProcessDeployment1.class);
+        startActivity(toDeploy1);
+    }
+
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".view.hunt.process.ProcessInterview1">
+    tools:context=".view.hunt.process.ProcessDocumentation1">
 
     <ImageView
         android:id="@+id/Home_Line"
@@ -33,6 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toShortlist1"
             android:text="Shortlisting"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -44,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toInterview1"
             android:text="Interview"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -66,6 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toDeploy1"
             android:text="Deployment"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -98,6 +101,7 @@
         android:layout_marginTop="156dp"
         android:background="@drawable/red_button"
         android:fontFamily="sans-serif"
+        android:onClick="toDocumentation2"
         android:text="1 Profile"
         android:textColor="@android:color/white"
         android:typeface="normal"
