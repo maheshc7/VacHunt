@@ -21,6 +21,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="408dp"
         android:layout_height="wrap_content"
+        android:onClick="toInterview3"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,6 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toShortlist1"
             android:text="Shortlisting"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -56,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toDoc1"
             android:text="Documentation"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -67,6 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button_nohighlight"
+            android:onClick="toDeploy1"
             android:text="Deployment"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="14sp" />
@@ -76,7 +80,8 @@
         android:id="@+id/profileview1"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="20dp"
+        android:onClick="toInterview3"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -98,7 +103,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
+            android:focusable="false"
             android:inputType="textMultiLine"
+            android:onClick="toInterview3"
             android:text="Vinoth Mani\nLocation:Chennai\nLast Update:3/7/2018" />
 
     </LinearLayout>
