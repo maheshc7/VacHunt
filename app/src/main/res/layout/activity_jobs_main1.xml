@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.hunt.jobs.JobsMain1">
+    tools:context=".view.hunt.jobs.JobsMain1"
+    android:background="@drawable/background">
 
     <ImageView
         android:id="@+id/imageView7"
@@ -23,6 +24,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/jobs_seeker_button"
+        android:onClick="seek"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
